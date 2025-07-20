@@ -1,7 +1,7 @@
 
 # Aplicação de Inteligência Artificial em Recrutamento e Seleção
 
-## 🎯 Objetivo do Projeto  
+## Objetivo do Projeto  
 Criar um sistema de recrutamento inteligente para:
 
 - **Analisar currículos automaticamente**: Identificar os melhores talentos que se encaixam nos requisitos técnicos e comportamentais da vaga.
@@ -10,7 +10,7 @@ Criar um sistema de recrutamento inteligente para:
 
 - **Prever o desempenho futuro**: Usar dados para identificar os candidatos com maior potencial de sucesso na função.
 
-## 🧠 Como a Inteligência Artificial é Usada
+## Como a Inteligência Artificial é Usada
 
 ### 1. Entendendo os Currículos (Processamento de Linguagem Natural)
 -   **Leitura de informações:** A IA lê os currículos e extrai dados importantes, como experiência profissional, formação e competências.
@@ -22,7 +22,7 @@ Criar um sistema de recrutamento inteligente para:
 -   **Previsão avançada:** Um modelo mais potente é usado para analisar os detalhes e prever com mais precisão a chance de sucesso de cada candidato.
 -   **Otimização:** Ajustamos os modelos constantemente para garantir que as previsões sejam as melhores possíveis.
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 -   **Python:** A principal linguagem de programação do projeto.
 -   **Pandas e NumPy:** Para organizar, limpar e preparar os dados dos currículos.
@@ -31,7 +31,7 @@ Criar um sistema de recrutamento inteligente para:
 -   **NLTK e sentence_transformers:** Para a análise e interpretação dos textos dos currículos.
 -   **Streamlit:** Para construir a interface web interativa do sistema, onde tudo acontece.
 
-## 📂 Etapas do Projeto
+## Etapas do Projeto
 
 -   **Preparação dos Dados:**
     -   Os currículos são importados e os dados são limpos e organizados para análise.
@@ -51,7 +51,7 @@ Criar um sistema de recrutamento inteligente para:
 
 ---
 
-## 🧠 Como a IA Funciona
+## Como a IA Funciona
 
 ### 1. Análise de Texto
 -   **Extração de Dados:** Identifica automaticamente informações chave nos currículos;
@@ -63,25 +63,25 @@ Criar um sistema de recrutamento inteligente para:
 -   **Análise Profunda:** Um modelo avançado (XGBoost) prevê o potencial de sucesso do candidato com alta precisão.
 -   **Ajuste Fino:** Os modelos são otimizados para entregar os melhores resultados.
 
-## 🛠️ Tecnologias
+## Tecnologias
 -   **Python:** Linguagem principal do projeto.
 -   **Pandas e NumPy:** Para manipulação e limpeza de dados.
 -   **Scikit-learn e XGBoost:** Para criação dos modelos de Machine Learning.
 -   **NLTK e sentence_transformers:** Para todo o processamento de texto.
 -   **Streamlit:** Para a interface web interativa do sistema.
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 -   **Preparação:** Os dados dos currículos são coletados, limpos e balanceados para evitar viés.
 -   **Modelagem:** Os modelos de IA são treinados, validados e interpretados.
 -   **Interface:** Uma plataforma web permite o upload de currículos e a visualização clara dos resultados e scores.
 -   **Automação:** Todo o processo, da entrada do currículo à análise, acontece de forma automática e integrada.
 
-## 📊 Funcionalidades
+## Funcionalidades
 - **Upload de Currículos:** Suporte para PDF, com parser inteligente para extração das informações.  
 - **Análise de candidato:** Compatibilidade técnica, comportamental e _fit_ cultural com a vaga desejada.  
 - **Previsão de Desempenho:** Score preditivo baseado no histórico de candidatos similares e resultados anteriores da empresa.
 
-## ⚠️ Estrutura do Repositório
+## Estrutura do Repositório
 O repositório se divide em diversos arquivos e diretórios:
 
 ### 1. Notebooks Jupyter (.ipynb):
